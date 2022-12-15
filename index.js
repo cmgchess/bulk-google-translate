@@ -9,6 +9,7 @@ const FROM = 'si';
 const SOURCE_FILE = './sentences.json';
 const DEST_FILE = 'translated.json';
 
+//copy paste the ip addresses from the below link
 //https://colab.research.google.com/drive/1Ud7b31vAhg-s_inMD6TXXPKIbzk9S8ls?usp=sharing
 const ips = [
   'http://78.38.28.239:80',
@@ -78,3 +79,4 @@ const run = async () => {
 };
 
 run();
+//try several times if it hangs
