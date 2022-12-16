@@ -4,7 +4,7 @@ const createHttpProxyAgent = require('http-proxy-agent');
 const results = [];
 
 const TO = 'en';
-const FROM = 'si';
+const FROM = 'de';
 
 const SOURCE_FILE = './sentences.json';
 const DEST_FILE = 'translated.json';
@@ -79,4 +79,4 @@ const run = async () => {
 };
 
 run();
-//try several times if it hangs
+//try updating the ip list if it keeps 'retrying...' without stopping
