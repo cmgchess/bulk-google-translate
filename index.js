@@ -6,7 +6,7 @@ const results = [];
 const TO = 'en';
 const FROM = 'de';
 
-const SOURCE_FILE = './sentences.json';
+const SOURCE_FILE = 'sentences.json';
 const DEST_FILE = 'translated.json';
 
 //copy paste the ip addresses from the below link
@@ -31,7 +31,7 @@ const ips = [
   'http://8.210.83.33:80',
 ];
 let proxy = ips[Math.floor(Math.random() * ips.length)];
-const sentences = require(SOURCE_FILE);
+const sentences = require(`./${SOURCE_FILE}`);
 //['sentence1', 'sentence2', 'sentence3']
 
 const translateRes = async (sentence) => {
