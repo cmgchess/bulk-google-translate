@@ -26,8 +26,8 @@ npm install
 
    - `TO`: The target language code (e.g., 'en' for English).
    - `FROM`: The source language code (e.g., 'de' for German).
-   - `SOURCE_FILE`: The path to the JSON file containing the sentences to translate.
-   - `DEST_FILE`: The desired path and filename for the translated results JSON file.
+   - `SOURCE_FILE`: The filename containing the sentences to translate.
+   - `DEST_FILE`: The filename for the translated results JSON file.
    - `ips`: An array of IP addresses or proxy URLs to bypass rate limits. To obtain the list, follow these steps:
      - Run the provided [Colab link](https://colab.research.google.com/drive/1Ud7b31vAhg-s_inMD6TXXPKIbzk9S8ls?usp=sharing) to retrieve a list of IP addresses.
      - Copy and paste the output list of IP addresses into the `ips` variable in the `index.js` file.
