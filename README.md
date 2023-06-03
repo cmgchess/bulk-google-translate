@@ -21,7 +21,7 @@ npm install
 
 ## Usage
 
-1. Open the `script.js` file.
+1. Open the `index.js` file.
 2. Customize the following variables according to your needs:
 
    - `TO`: The target language code (e.g., 'en' for English).
@@ -30,13 +30,13 @@ npm install
    - `DEST_FILE`: The desired path and filename for the translated results JSON file.
    - `ips`: An array of IP addresses or proxy URLs to bypass rate limits. To obtain the list, follow these steps:
      - Run the provided [Colab link](https://colab.research.google.com/drive/1Ud7b31vAhg-s_inMD6TXXPKIbzk9S8ls?usp=sharing) to retrieve a list of IP addresses.
-     - Copy and paste the output list of IP addresses into the `ips` variable in the `script.js` file.
+     - Copy and paste the output list of IP addresses into the `ips` variable in the `index.js` file.
 
-3. Save the changes to the `script.js` file.
+3. Save the changes to the `index.js` file.
 4. Run the script by executing the following command in the repository directory:
 
 ```bash
-node script.js
+node index.js
 ```
 
 The tool will start translating each sentence from the `SOURCE_FILE` and save the results to the `DEST_FILE`. It will display the progress, indicating the number of sentences processed.
